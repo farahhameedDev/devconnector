@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://farah123:modest785far@devconnector.r6xc3.mongodb.net/devconnector?retryWrites=true&w=majority",
+    "jwtsecret": "devconnectorsecrettoken",
+    "githubclientid": "f98a1e03245676a86bca",
+    "githubsecret": "5a8f2f10b9a5738a390baae70c24b85bbce7e14c"
+}
