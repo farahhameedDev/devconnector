@@ -64,7 +64,7 @@ router.post('/', [auth,
         if (githubusername) profileFields.githubusername = githubusername;
         if (status) profileFields.status = status;
         if (skills) {
-            profileFields.skills = skills.split(',').map(skill => skill.trim());
+            profileFields.skills = skills.toString().split(',').map(skill => skill.trim());
         }
         //build social object
         profileFields.social = {};
